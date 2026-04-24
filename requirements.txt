@@ -1,0 +1,6 @@
+gradio
+requests
+python-doctr[tf]
+opencv-python
+numpy
+pandas
