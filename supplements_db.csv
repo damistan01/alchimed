@@ -1,0 +1,114 @@
+id,name,concentration_mg,indications
+SUP001,Vitamin D3 (IU),1000,Sleep Optimization; Immunity; Bone Health
+SUP002,Vitamin D3 (IU),2000,Sleep Optimization; Immunity; Bone Health
+SUP003,Vitamin D3 (IU),4000,Sleep Optimization; Immunity; Bone Health
+SUP004,Vitamin D3 (IU),5000,Sleep Optimization; Immunity; Bone Health
+SUP005,Magnesium (Glycinate/Bisglycinate),100,Sleep Optimization; Metabolic Health; Nervous System; Muscles
+SUP006,Magnesium (Glycinate/Bisglycinate),400,Sleep Optimization; Metabolic Health; Nervous System; Muscles
+SUP007,Zinc (Picolinate/Bisglycinate),15,Immunity; Sleep Optimization; Hormonal Health; Skin
+SUP008,Zinc (Picolinate/Bisglycinate),25,Immunity; Sleep Optimization; Hormonal Health; Skin
+SUP009,Zinc (Picolinate/Bisglycinate),50,Immunity; Sleep Optimization; Hormonal Health; Skin
+SUP010,L-Tryptophan,500,Sleep Optimization; Emotional Balance
+SUP011,Vitamin B6,50,Sleep Optimization; Nervous System; Immunity
+SUP012,Glycine,500,Sleep Optimization; Nervous System
+SUP013,Glycine,1000,Sleep Optimization; Nervous System
+SUP014,L-Theanine,100,Sleep Optimization; Stress Reduction; Focus
+SUP015,L-Theanine,200,Sleep Optimization; Stress Reduction; Focus
+SUP016,5-HTP,50,Sleep Optimization; Mild Depressive States
+SUP017,5-HTP,100,Sleep Optimization; Mild Depressive States
+SUP018,Valerian Extract,300,Sleep Optimization; Anxiety
+SUP019,Valerian Extract,500,Sleep Optimization; Anxiety
+SUP020,Passionflower,200,Sleep Optimization; Calming
+SUP021,Passionflower,400,Sleep Optimization; Calming
+SUP022,Vitamin E (IU),100,Immunity; Skin Health; Antioxidant
+SUP023,Vitamin E (IU),400,Immunity; Skin Health; Antioxidant
+SUP024,Quercetin,250,Anti-aging; Immunity; Anti-inflammatory
+SUP025,Quercetin,500,Anti-aging; Immunity; Anti-inflammatory
+SUP026,Resveratrol,250,Anti-aging; Cardiovascular Health; Metabolic Health
+SUP027,Resveratrol,500,Anti-aging; Cardiovascular Health; Metabolic Health
+SUP028,Vitamin B9 / Folate (mcg),400,Anti-aging; Hormonal Health; Nervous System
+SUP029,Vitamin B9 / Folate (mcg),800,Anti-aging; Hormonal Health; Nervous System
+SUP030,Vitamin B12 (Methylcobalamin) (mcg),500,Anti-aging; Nervous System; Energy; Immunity
+SUP031,Vitamin B12 (Methylcobalamin) (mcg),1000,Anti-aging; Nervous System; Energy; Immunity
+SUP032,Chromium Picolinate (mcg),200,Metabolic Health; Blood Sugar Regulation
+SUP033,Berberine,500,Metabolic Health; Blood Sugar Regulation
+SUP034,Alpha Lipoic Acid (ALA),300,Metabolic Health; Neuropathy; Antioxidant
+SUP035,Alpha Lipoic Acid (ALA),600,Metabolic Health; Neuropathy; Antioxidant
+SUP036,Vitamin C,500,Immunity; Skin Health (Collagen); Antioxidant
+SUP037,Vitamin C,1000,Immunity; Skin Health (Collagen); Antioxidant
+SUP038,Selenium (mcg),50,Immunity; Thyroid Health; Antioxidant
+SUP039,Selenium (mcg),100,Immunity; Thyroid Health; Antioxidant
+SUP040,Selenium (mcg),200,Immunity; Thyroid Health; Antioxidant
+SUP041,N-Acetylcysteine (NAC),600,Immunity; Liver Protection; Respiratory Health
+SUP042,Melatonin,1,Sleep Optimization; Circadian Rhythm Regulation
+SUP043,Melatonin,3,Sleep Optimization; Circadian Rhythm Regulation
+SUP044,Melatonin,5,Sleep Optimization; Circadian Rhythm Regulation
+SUP045,Echinacea Extract,400,Immunity; Cold Prevention
+SUP046,Hydrolyzed Collagen Peptides,1000,Skin Health; Joints
+SUP047,Hydrolyzed Collagen Peptides,5000,Skin Health; Joints
+SUP048,Hyaluronic Acid,50,Skin Health; Hydration; Joints
+SUP049,Hyaluronic Acid,100,Skin Health; Hydration; Joints
+SUP050,Astaxanthin,4,Skin Health; UV Protection; Antioxidant
+SUP051,Astaxanthin,12,Skin Health; UV Protection; Antioxidant
+SUP052,Vitex (Chasteberry),400,Endocrine Axis; Female Hormonal Balance
+SUP053,Maca Root,500,Endocrine Axis; Libido; Energy
+SUP054,Maca Root,1000,Endocrine Axis; Libido; Energy
+SUP055,Ashwagandha (Extract),300,Muscle Synthesis; Stress Response; Cortisol Reduction
+SUP056,Ashwagandha (Extract),500,Muscle Synthesis; Stress Response; Cortisol Reduction
+SUP057,Tongkat Ali,400,Muscle Synthesis; Testosterone; Libido
+SUP058,Ginseng (Panax),200,Cognitive Performance; Muscle Synthesis; Metabolic Health
+SUP059,Ginseng (Panax),500,Cognitive Performance; Muscle Synthesis; Metabolic Health
+SUP060,L-Tyrosine,500,Cognitive Performance; Focus; Dopamine Synthesis
+SUP061,Citicoline (CDP-Choline),250,Cognitive Performance; Memory; Focus
+SUP062,Citicoline (CDP-Choline),500,Cognitive Performance; Memory; Focus
+SUP063,Ginkgo Biloba (Standardized Extract),40,Cognitive Performance; Cerebral Circulation
+SUP064,Ginkgo Biloba (Standardized Extract),80,Cognitive Performance; Cerebral Circulation
+SUP065,Ginkgo Biloba (Standardized Extract),120,Cognitive Performance; Cerebral Circulation
+SUP066,Bacopa Monnieri (Brahmi),300,Cognitive Performance; Memory; Stress Reduction
+SUP067,Vitamin A,3,Immunity; Skin Health
+SUP068,Iodine (Potassium Iodide),0.15,Endocrine Axis; Thyroid Health
+SUP069,Sodium Bicarbonate,1000,Muscle Synthesis; Physical Performance
+SUP070,Nicotinamide Riboside (NR),300,Longevity; Cellular Health (NAD+)
+SUP071,Nicotinamide Mononucleotide (NMN),500,Longevity; Cellular Health (NAD+)
+SUP072,Fisetin,100,Longevity; Senolytic
+SUP073,DIM (Diindolylmethane),200,Endocrine Axis; Hormonal Balance
+SUP074,Pearl Powder,500,Skin Longevity; Antioxidant
+SUP075,Beta-Alanine,3000,Muscle Synthesis; Performance and Endurance
+SUP076,Citrulline Malate,6000,Muscle Synthesis; Physical Performance; Circulation
+SUP077,SAMe,400,Cognitive Performance; Endocrine Axis; Joints
+SUP078,AHCC (Shiitake Extract),1000,Immunity; Inflammatory Response
+SUP079,Turkey Tail (Trametes versicolor),1000,Immunity; Cellular Health
+SUP080,Reishi (Ganoderma lucidum),500,Immunity; Stress Response; Cognitive Performance
+SUP081,Fu Ling (Poria),500,Sleep Optimization; Digestive Health
+SUP082,Tremella fuciformis,1000,Skin Longevity; Cellular Hydration
+SUP083,Rhodiola rosea,300,Cognitive Performance; Stress Response
+SUP084,Gotu Kola (Centella asiatica),500,Cognitive Performance; Vascular Health
+SUP085,Astragalus (Huang Qi),500,Immunity; Longevity; Metabolic Health
+SUP086,He Shou Wu (Fo-ti),500,Longevity; Hair Health; Antioxidant
+SUP087,Holy Basil (Tulsi),500,Cognitive Performance; Stress Response
+SUP088,Schisandra chinensis,500,Cognitive Performance; Adaptogen
+SUP089,Chamomile (Extract),500,Sleep Optimization; Relaxation
+SUP090,Hops (Extract),300,Sleep Optimization; Relaxation
+SUP091,Suan Zao Ren (Jujube Seeds),500,Sleep Optimization; Calming
+SUP092,Zhi Mu (Anemarrhena),400,Sleep Optimization; Thermal Balancing
+SUP093,Andrographis paniculata,400,Immunity; Inflammatory Response
+SUP094,Elderberry,500,Immunity; Inflammatory Response
+SUP095,Licorice (Gan Cao),400,Immunity; Digestive Health; Sleep Optimization
+SUP096,Acerola Cherry,500,Skin Longevity; Immunity
+SUP097,Goji Berries,1000,Skin Longevity; Immunity
+SUP098,Bitter Melon (Momordica),500,Metabolic Health; Blood Sugar Regulation
+SUP099,Cinnamon (Cinnamomum Extract),500,Metabolic Health; Blood Sugar Regulation
+SUP100,Gymnema Sylvestre,400,Metabolic Health; Fighting Sugar Cravings
+SUP101,Turkesterone,500,Muscle Synthesis; Endocrine Axis
+SUP102,Cistanche,500,Muscle Synthesis; Longevity; Libido
+SUP103,Black Cohosh (Actaea racemosa),40,Endocrine Axis; Female Hormonal Balance
+SUP104,Chuan Xiong,500,Muscle Synthesis; Sleep Optimization; Circulation
+SUP105,Dan Shen (Salvia miltiorrhiza),500,Muscle Synthesis; Cardiovascular Health
+SUP106,Chi Shao (Red Peony),500,Muscle Synthesis; Immunity
+SUP107,Hong Hua (Safflower),500,Muscle Synthesis; Blood Circulation
+SUP108,Dang Gui (Angelica sinensis),500,Muscle Synthesis; Endocrine Axis
+SUP109,Prebiotic Fibers,5000,Endocrine Axis; Digestive Health
+SUP110,Probiotics (CFU - Billions),10,Endocrine Axis; Digestive Health; Immunity
+SUP111,Iron (Bisglycinate),25,Anemia; Low Hemoglobin; Low Erythrocytes
+SUP112,Curcumin (Turmeric Extract),500,Inflammatory Response; Oxidative Stress; Joint Health
+SUP113,Coenzyme Q10 (CoQ10),100,Cardiovascular Health; Energy Production; Antioxidant
