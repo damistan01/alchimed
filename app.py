@@ -9,6 +9,7 @@ import io
 # Import functions from your existing modules
 from vision_module import extract_text_from_image, structure_data_with_medgemma, STRUCTURING_MODEL
 from reasoning_module import generate_final_prescription, load_json, load_csv, GOALS
+from anonymisation_module import anonymise_image
 
 def get_next_customer_id():
     data_dir = "data"
@@ -54,6 +55,7 @@ def process_blood_test(customer_id, image_filepath, selected_goal):
     
     # Save original image: original_<ID>_<DATE>.jpg
     original_image_dest = os.path.abspath(os.path.join(session_dir, f"original_{id_num}_{date_str}.jpg"))
+    safe_image_dest = os.path.abspath(os.path.join(session_dir, f"analize_safe_{id_num}_{date_str}.jpg"))
     try:
         shutil.copy2(image_filepath, original_image_dest)
         print(f"[App] Saved original image to: {original_image_dest}")
@@ -61,10 +63,22 @@ def process_blood_test(customer_id, image_filepath, selected_goal):
         yield f"Error: Failed to save image. {e}", "Error"
         return
 
+    yield "Anonymising patient data (PII)...", "Waiting..."
+    
+    # 0. Anonymisation Pipeline
+    try:
+        anonymise_image(original_image_dest, output_path=safe_image_dest)
+        print(f"[App] Saved anonymised image to: {safe_image_dest}")
+    except Exception as e:
+        print(f"[App] Anonymisation failed: {e}")
+        # Fallback to original if anonymisation fails to not break the app entirely,
+        # but in a real medical app, we might want to halt.
+        shutil.copy2(original_image_dest, safe_image_dest)
+
     yield "Extracting text with DocTR...", "Waiting..."
     
-    # 1. Vision Pipeline
-    raw_text = extract_text_from_image(original_image_dest)
+    # 1. Vision Pipeline (Run on the SAFE image)
+    raw_text = extract_text_from_image(safe_image_dest)
     if not raw_text:
         yield "Error: OCR failed to extract any text.", "Error"
         return
